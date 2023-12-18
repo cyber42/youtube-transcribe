@@ -20,7 +20,7 @@ It takes about 1 minute to transcribe a 4 minute video, which will incur fees on
 
 ## Installation Instructions
 1. Clone the repository.
-2. Install the dependencies using `pip install -r requirements.txt`.
+2. Install the dependencies using Python 3.12.0 with `pip install -r requirements.txt`.
 
 ## Usage Examples
 Transcribe a video and output to stdout:
@@ -46,7 +46,7 @@ Contributions and pull requests to `youtube-transcribe` are welcome. Please ensu
 Tested how `gpt-engineer` works, based on the prompt file below.
 
 Observations about `gpt-engineer`:
- - The resulted software is fully functional and it works on Python 3.12.
+ - The resulted software is fully functional and it works on Python 3.12.0.
  - Does not generate much comments or docstrings, despite instructed.
  - Does not use typing despite instructed.
  - Used the wrong library first (used youtube-dl, which seems to have issues now)
