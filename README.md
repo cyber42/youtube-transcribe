@@ -25,15 +25,15 @@ It takes about 1 minute to transcribe a 4 minute video, which will incur fees on
 ## Usage Examples
 Transcribe a video and output to stdout:
 ```
-python youtubetranscribe.py <YouTube-Video-URL> --api-key <Your-API-Key>
+python main.py <YouTube-Video-URL> --api-key <Your-API-Key>
 ```
 Transcribe a video and save to a file:
 ```
-python youtubetranscribe.py <YouTube-Video-URL> --output-file output.json --api-key <Your-API-Key>
+python main.py <YouTube-Video-URL> --output-file output.json --api-key <Your-API-Key>
 ```
 Use a cache folder to avoid reprocessing:
 ```
-python youtubetranscribe.py <YouTube-Video-URL> --cache-folder ./cache --api-key <Your-API-Key>
+python main.py <YouTube-Video-URL> --cache-folder ./cache --api-key <Your-API-Key>
 ```
 
 ## Documentation
