@@ -51,7 +51,7 @@ Observations about `gpt-engineer`:
  - It does not use typing, despite being instructed to.
  - Initially used the wrong library (used youtube-dl, which seems to have issues now).
  - Always generates the same project structure with a run.sh file attempting to create an environment locally.
- - Hallucinated the 'likes' attribute in the metadata, which I removed manually.
+ - Hallucinated the `likes` attribute in the metadata, which I removed manually.
  - Had a small datetime/str type issue, which I fixed.
  - Despite having explained the entire replicate API in the prompt, it regularly returns the transcription file path on the replicate.com server instead of loading it up. I fixed this with an incremental modification prompt.
  - The README.md file generation was stopped halfway through.
